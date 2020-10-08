@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +57,16 @@
       <option name="presentableId" value="Default" />
       <updated>1601708692202</updated>
       <workItem from="1601708693560" duration="671000" />
-      <workItem from="1601710351882" duration="702000" />
+      <workItem from="1601710351882" duration="1085000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1601711079393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601711079393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +83,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601710960998">
       <screen x="64" y="0" width="1856" height="1080" />
@@ -86,9 +96,9 @@
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="449" y="175" width="1022" height="737" key="SettingsEditor/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1601711053066" />
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1601710636502">
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1601711084498">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1601710636502" />
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1601711084498" />
   </component>
 </project>
