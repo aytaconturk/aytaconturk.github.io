@@ -63,6 +63,40 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        .about-me {
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+        .emoji {
+            display: inline-block;
+            vertical-align: text-top;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .about-me .emoji.pointer {
+            background-image: url(pointright.png);
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            vertical-align: text-bottom;
+        }
+
+        .about-me .highlight-link {
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            font-weight: 400;
+            text-decoration: none;
+            display: inline-block;
+            padding: 2px 3px;
+            text-decoration: none;
+            -webkit-box-shadow: inset 0 -3px 0 #007bff;
+            box-shadow: inset 0 -3px 0 #007bff;
+        }
+
     </style>
 
 </head>
@@ -77,6 +111,13 @@
         <div class="links">
            Computer Engineer
         </div>
+
+        <h3 class="about-me">
+            <span>Beni Tanıyın </span> <span class="emoji pointer"></span>
+            <span>
+            <a href="aboutme.html"  class="highlight-link">Hakkımda</a>
+          </span>
+        </h3>
     </div>
 </div>
 </body>
