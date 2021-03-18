@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +42,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -58,6 +62,7 @@
       <updated>1601708692202</updated>
       <workItem from="1601708693560" duration="671000" />
       <workItem from="1601710351882" duration="1085000" />
+      <workItem from="1602137166799" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -66,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601711079393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="texts updated">
+      <created>1602137225853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602137225853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +94,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="texts updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="texts updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601710960998">
@@ -96,9 +110,9 @@
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
     <state x="449" y="175" width="1022" height="737" key="SettingsEditor/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1601711053066" />
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1601711084498">
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1602137234724">
       <screen x="64" y="0" width="1856" height="1080" />
     </state>
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1601711084498" />
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/0.1080.1920.1080/64.0.1856.1080@64.0.1856.1080" timestamp="1602137234724" />
   </component>
 </project>
