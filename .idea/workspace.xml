@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
       <workItem from="1616062144518" duration="1554000" />
       <workItem from="1616105941664" duration="343000" />
       <workItem from="1616106377956" duration="583000" />
-      <workItem from="1616107074821" duration="315000" />
+      <workItem from="1616107074821" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -160,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616107115365</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="emoji added">
+      <created>1616107446861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616107446861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="index page updated">
+      <created>1616107690618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616107690618</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +199,7 @@
     <MESSAGE value="web application lesson 1st assignment" />
     <MESSAGE value="about page added" />
     <MESSAGE value="title icon.png added" />
+    <MESSAGE value="emoji added" />
     <MESSAGE value="index page updated" />
     <option name="LAST_COMMIT_MESSAGE" value="index page updated" />
   </component>
