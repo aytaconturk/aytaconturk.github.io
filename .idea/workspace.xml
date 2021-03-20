@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity2.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity2.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1616107074821" duration="1693000" />
       <workItem from="1616109943240" duration="407000" />
       <workItem from="1616156698393" duration="4459000" />
-      <workItem from="1616275989252" duration="941000" />
+      <workItem from="1616275989252" duration="1613000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -254,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616159605960</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="activity 2 files added">
+      <created>1616277296099</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1616277296099</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +289,7 @@
     <MESSAGE value="index page updated" />
     <MESSAGE value="updated" />
     <MESSAGE value="in class activity 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="in class activity 1" />
+    <MESSAGE value="activity 2 files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="activity 2 files added" />
   </component>
 </project>
