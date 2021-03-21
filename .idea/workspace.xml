@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change beforePath="$PROJECT_DIR$/inclassactivities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1616109943240" duration="407000" />
       <workItem from="1616156698393" duration="4459000" />
       <workItem from="1616275989252" duration="3858000" />
-      <workItem from="1616326847264" duration="755000" />
+      <workItem from="1616326847264" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -295,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616327413612</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="index updated">
+      <created>1616327625746</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1616327625746</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +333,7 @@
     <MESSAGE value="In class activity index page added" />
     <MESSAGE value="updated" />
     <MESSAGE value="in class activities directory renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="in class activities directory renamed" />
+    <MESSAGE value="index updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="index updated" />
   </component>
 </project>
