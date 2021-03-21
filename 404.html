@@ -11,13 +11,11 @@
 
 <style>
     .me404 {
-        width: 1000px;
+        width: 100%;
         height: 480px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -400px;
-        margin-top: -240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .st0 {
         fill-rule: evenodd;
@@ -390,9 +388,40 @@
         zoom: 1;
     }
 
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content a {
+        font-family: 'Cabin', sans-serif;
+        display: inline-block;
+        padding: 10px 25px;
+        background-color: #89949b;
+        border: none;
+        border-radius: 40px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+        margin-top: 50px;
+        margin-left: -5%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 </style>
 
-<svg class="me404" viewBox="0 0 1000 480">
+<div class="container">
+    <svg class="me404" viewBox="0 0 1000 480">
     <path id="cloud" class="st0" d="M658.4,345.2c-10.9,0-19.7-8.8-19.7-19.7c0-10.9,8.8-19.7,19.7-19.7h50.1c9.9-1.5,17.5-10,17.5-20.3
 	c0-11.4-9.2-20.6-20.6-20.6v-0.2H633c-11.4,0-20.6-6.7-20.6-18.1c0-11.4,9.2-19.3,20.6-19.3h70.4l2-0.2c7.3-3.1,12.5-11,12.5-19.5
 	c0-8.5-4.2-16.7-11.4-19.2l-2.5-0.3h-11.3c-11.9,0-21.6-8.9-21.6-19.9c0-11,9.7-19.9,21.6-19.9h15.8l1.4-0.3
@@ -523,6 +552,10 @@
         </g>
     </g>
 </svg>
+</div>
+<div class="content">
+    <a href="https://aytaconturk.com">HOME PAGE</a>
+</div>
 
 <script>
     var path = document.getElementById('tail');
