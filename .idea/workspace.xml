@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/background-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +101,7 @@
       <workItem from="1616326847264" duration="6956000" />
       <workItem from="1616758293195" duration="8479000" />
       <workItem from="1616855408930" duration="311000" />
-      <workItem from="1616957229120" duration="2957000" />
+      <workItem from="1616957229120" duration="3216000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -359,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616963501984</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="activity3 files added">
+      <created>1616964441231</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1616964441231</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +399,7 @@
     <MESSAGE value="404 page added" />
     <MESSAGE value="404 page updated" />
     <MESSAGE value="ceng311 link added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ceng311 link added" />
+    <MESSAGE value="activity3 files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="activity3 files added" />
   </component>
 </project>
