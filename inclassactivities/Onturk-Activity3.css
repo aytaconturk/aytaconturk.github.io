@@ -1,0 +1,168 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color: black;
+  font: 12pt "Tahoma", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(background-image.png);
+  background-color: #d3ccb2;
+}
+
+.container {
+  width: 80%;
+  margin: 0 10%;
+}
+
+li {
+  list-style-type: circle;
+}
+
+#wrapper{
+
+}
+
+#header {
+  margin-top: 1rem;
+  background-color: #ba9b36;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  border: 2px solid #777;
+  border-radius: 5px;
+}
+
+#menu {
+  background-color: rgb(173 168 168);
+  border: 2px solid #787878;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+#menu h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 35px;
+}
+
+#news {
+
+}
+
+
+#main {
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+#main h1 {
+  margin-top: 0px !important;
+  border-bottom: 5px solid #42231c;
+  border-top: 5px solid #42231c;
+}
+
+#main img{
+  border: 2px solid gray;
+  box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, .3);
+  border-radius: 3px;
+}
+
+#music {
+  background-color: rgb(173 168 168);
+  border: 2px solid #787878;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+#music h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+}
+
+#music p{
+  padding: 20px 10px;
+}
+
+#location {
+  background-color: rgb(173 168 168);
+  border: 2px solid #787878;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+#location h2{
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+}
+
+#footer {
+  font-size: 12px;
+}
+
+h1{
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+h2{
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+h2, h1{
+  padding: 0.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 10px 5% 20px;
+}
+
+td, th {
+  padding: 12px;
+  vertical-align: top;
+  border: 3px solid #ada8a8;
+}
+
+tbody tr:first-child {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.altrow {
+  background-color: #538ca9;
+}
+
+.altrow:nth-child(odd) {
+  background-color: #fff;
+}
+
+.bg-dark-green {
+  background-color: #012615;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+/*.mt-0 {*/
+/*  margin-top: 0;*/
+/*}*/
+
+#main h1:first-child {
+  margin-top: 0;
+  border-bottom: 5px solid #42231c;
+  border-top: 5px solid #42231c;
+}

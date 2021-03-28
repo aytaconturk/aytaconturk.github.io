@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/background-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1iMDiL56SUpVZD9wdHeKKWflisp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -90,7 +102,10 @@
       <workItem from="1616109943240" duration="407000" />
       <workItem from="1616156698393" duration="4459000" />
       <workItem from="1616275989252" duration="3858000" />
-      <workItem from="1616326847264" duration="6172000" />
+      <workItem from="1616326847264" duration="6956000" />
+      <workItem from="1616758293195" duration="8479000" />
+      <workItem from="1616855408930" duration="311000" />
+      <workItem from="1616957229120" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -330,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616339340370</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="404 page updated">
+      <created>1616339773862</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616339773862</updated>
+    </task>
+    <task id="LOCAL-00036" summary="ceng311 link added">
+      <created>1616963501984</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1616963501984</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +395,7 @@
     <MESSAGE value="index updated" />
     <MESSAGE value="404 page added" />
     <MESSAGE value="404 page updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="404 page updated" />
+    <MESSAGE value="ceng311 link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ceng311 link added" />
   </component>
 </project>
