@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1616326847264" duration="6956000" />
       <workItem from="1616758293195" duration="8479000" />
       <workItem from="1616855408930" duration="311000" />
-      <workItem from="1616957229120" duration="3216000" />
+      <workItem from="1616957229120" duration="3395000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -362,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616964441231</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="activity3 updated">
+      <created>1616964677313</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1616964677313</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,6 +407,7 @@
     <MESSAGE value="404 page updated" />
     <MESSAGE value="ceng311 link added" />
     <MESSAGE value="activity3 files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="activity3 files added" />
+    <MESSAGE value="activity3 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="activity3 updated" />
   </component>
 </project>
