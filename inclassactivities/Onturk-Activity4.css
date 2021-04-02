@@ -1,0 +1,42 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: absolute;
+	top: 10px;
+}
+
+.header {
+	width: 70%;
+	margin: 20px 15%;
+	float: left;
+}
+
+.header .logo {
+	float: left;
+}
+
+.content {
+	width: 70%;
+	margin: 0px 15%;
+}
+
+.content .image img{
+	width: 250px;
+	float: left;
+	padding: 0 10px 10px;
+}
+
+.content .main {
+	display: inline;
+}
+
+.head {
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+}
