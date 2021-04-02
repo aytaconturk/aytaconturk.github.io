@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/griffen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/images.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,8 @@
       <workItem from="1616758293195" duration="8479000" />
       <workItem from="1616855408930" duration="311000" />
       <workItem from="1616957229120" duration="3972000" />
-      <workItem from="1617365886456" duration="1693000" />
+      <workItem from="1617365886456" duration="2626000" />
+      <workItem from="1617378420000" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -381,7 +380,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616964846090</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="activity 4 added">
+      <created>1617367660152</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1617367660152</updated>
+    </task>
+    <task id="LOCAL-00041" summary="activity 4 updated">
+      <created>1617367697141</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1617367697141</updated>
+    </task>
+    <task id="LOCAL-00042" summary="updated">
+      <created>1617367909566</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1617367909566</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +432,6 @@
     <MESSAGE value="activity 2 files renamed" />
     <MESSAGE value="In class activity directory name renamed" />
     <MESSAGE value="In class activity index page added" />
-    <MESSAGE value="updated" />
     <MESSAGE value="in class activities directory renamed" />
     <MESSAGE value="index updated" />
     <MESSAGE value="404 page added" />
@@ -420,6 +439,9 @@
     <MESSAGE value="ceng311 link added" />
     <MESSAGE value="activity3 files added" />
     <MESSAGE value="activity3 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="activity3 updated" />
+    <MESSAGE value="activity 4 added" />
+    <MESSAGE value="activity 4 updated" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
