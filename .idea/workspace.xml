@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Onturk-Activity4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities" />
+    <property name="last_opened_file_path" value="/opt/lampp/htdocs/CENG311" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -105,7 +103,8 @@
       <workItem from="1616855408930" duration="311000" />
       <workItem from="1616957229120" duration="3972000" />
       <workItem from="1617365886456" duration="2626000" />
-      <workItem from="1617378420000" duration="668000" />
+      <workItem from="1617378420000" duration="1485000" />
+      <workItem from="1617969485291" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -401,7 +400,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617367909566</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated">
+      <created>1617379150008</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1617379150008</updated>
+    </task>
+    <task id="LOCAL-00044" summary="gitignore file added">
+      <created>1617379228644</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1617379228644</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,6 +455,7 @@
     <MESSAGE value="activity 4 added" />
     <MESSAGE value="activity 4 updated" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="gitignore file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore file added" />
   </component>
 </project>
