@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.from {
+    margin-bottom: 10px;
+}
+
+input, select, textarea {
+    margin: 0px 5px 15px;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+label[for="to"] {
+    margin-right: 18px;
+}
+
+.content {
+    width: 40%;
+}
+
+#convert {
+    float: right;
+    margin-right: 68px;
+    padding: 7px 50px;
+    cursor: pointer;
+}

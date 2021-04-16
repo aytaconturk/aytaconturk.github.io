@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activity 6 | Currency Calculator</title>
+    <link rel="stylesheet" href="Activity6.css">
+    <script src="Activity6.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Activity 6: Currency Calculator</h1>
+
+  <div class="content">
+    <table>
+      <tbody>
+      <tr class="from">
+        <td>
+          <label for="from">From:</label>
+          <input onchange="Calculate()" id="from" name="from" type="number" value="0">
+        </td>
+        <td>
+          <label for="currencyFrom">Currency:</label>
+          <select onchange="Calculate()" name="currencyFrom" id="currencyFrom">
+            <option value="USD">US Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="EUR">Euro</option>
+          </select>
+        </td>
+      </tr>
+      <tr class="to">
+        <td>
+          <label for="to">To:</label>
+          <input onchange="Calculate()" id="to" name="to" type="number" value="0">
+        </td>
+        <td>
+          <label for="currencyTo">Currency:</label>
+          <select onchange="Calculate()" name="currencyTo" id="currencyTo">
+            <option value="USD">US Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="EUR">Euro</option>
+          </select>
+        </td>
+      </tr>
+
+      </tbody>
+    </table>
+    <button id="convert" onclick="Calculate();">Convert</button>
+  </div>
+
+
+
+
+  
+
+  
+
+</div>
+
+</body>
+</html>

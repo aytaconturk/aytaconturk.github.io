@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -105,6 +109,8 @@
       <workItem from="1617365886456" duration="2626000" />
       <workItem from="1617378420000" duration="1485000" />
       <workItem from="1617969485291" duration="670000" />
+      <workItem from="1618131631221" duration="843000" />
+      <workItem from="1618563985927" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
