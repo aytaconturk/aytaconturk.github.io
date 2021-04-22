@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="texts updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity6.js" afterDir="false" />
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="Activity6 link added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -110,7 +107,12 @@
       <workItem from="1617378420000" duration="1485000" />
       <workItem from="1617969485291" duration="670000" />
       <workItem from="1618131631221" duration="843000" />
-      <workItem from="1618563985927" duration="5999000" />
+      <workItem from="1618563985927" duration="6426000" />
+      <workItem from="1618655293370" duration="192000" />
+      <workItem from="1618712254352" duration="992000" />
+      <workItem from="1618767099488" duration="1765000" />
+      <workItem from="1619032417798" duration="2286000" />
+      <workItem from="1619089084607" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -420,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617379228644</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Activity6 added">
+      <created>1618574300797</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1618574300797</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Activity6 link added">
+      <created>1618574467105</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1618574467105</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,6 +478,8 @@
     <MESSAGE value="activity 4 updated" />
     <MESSAGE value="updated" />
     <MESSAGE value="gitignore file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore file added" />
+    <MESSAGE value="Activity6 added" />
+    <MESSAGE value="Activity6 link added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activity6 link added" />
   </component>
 </project>
