@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="project files added">
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity7/Onturk-Activity7.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity7/Onturk-Activity7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +117,7 @@
       <workItem from="1619093139569" duration="1301000" />
       <workItem from="1619122822681" duration="10000" />
       <workItem from="1619521140598" duration="1163000" />
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1601711079393</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601711079393</updated>
+      <workItem from="1621073354997" duration="10196000" />
     </task>
     <task id="LOCAL-00002" summary="texts updated">
       <created>1602137225853</created>
@@ -453,7 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619093555385</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Activity7 files added">
+      <created>1621073439634</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1621073439634</updated>
+    </task>
+    <task id="LOCAL-00050" summary="renamed">
+      <created>1621073503733</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1621073503734</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,8 +481,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="web application lesson 1st assignment" />
-    <MESSAGE value="about page added" />
     <MESSAGE value="title icon.png added" />
     <MESSAGE value="emoji added" />
     <MESSAGE value="index page updated" />
@@ -497,6 +504,8 @@
     <MESSAGE value="Activity6 link added" />
     <MESSAGE value="project link added" />
     <MESSAGE value="project files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="project files added" />
+    <MESSAGE value="Activity7 files added" />
+    <MESSAGE value="renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed" />
   </component>
 </project>
