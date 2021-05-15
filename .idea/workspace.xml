@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="Activity6 link added">
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="project files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/opt/lampp/htdocs/CENG311" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -113,6 +113,9 @@
       <workItem from="1618767099488" duration="1765000" />
       <workItem from="1619032417798" duration="2286000" />
       <workItem from="1619089084607" duration="22000" />
+      <workItem from="1619093139569" duration="1301000" />
+      <workItem from="1619122822681" duration="10000" />
+      <workItem from="1619521140598" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1601711079393</created>
@@ -436,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618574467105</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="project link added">
+      <created>1619093258930</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1619093258930</updated>
+    </task>
+    <task id="LOCAL-00048" summary="project files added">
+      <created>1619093555385</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1619093555385</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,8 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="texts updated" />
     <MESSAGE value="web application lesson 1st assignment" />
     <MESSAGE value="about page added" />
     <MESSAGE value="title icon.png added" />
@@ -480,6 +495,8 @@
     <MESSAGE value="gitignore file added" />
     <MESSAGE value="Activity6 added" />
     <MESSAGE value="Activity6 link added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity6 link added" />
+    <MESSAGE value="project link added" />
+    <MESSAGE value="project files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="project files added" />
   </component>
 </project>

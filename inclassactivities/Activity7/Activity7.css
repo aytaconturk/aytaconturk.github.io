@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 600px;
+    border: 3px solid blue;
+}
+h1 {
+	color: blue;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+h2 {
+	color: blue;
+	font-size: 120%;
+	padding: 0;
+	margin-bottom: .5em;
+}
+main {
+    padding: 1em 2em;
+}
+label {
+	float: left;
+    width: 3em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+p {
+	margin: 0;
+}
+td {
+	width: 10em;
+}
