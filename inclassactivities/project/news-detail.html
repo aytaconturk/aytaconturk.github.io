@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     <link rel="stylesheet" href="assets/css/datepicker.css">
     <link rel="stylesheet" href="assets/css/datepicker-customized.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/form-validation.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -210,17 +211,23 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="name">Name: <span class="text-danger">*</span></label>
-                                            <input id="name" type="text" class="form-control">
+                                            <div class="controls">
+                                                <input id="name" type="text" class="form-control" required data-validation-required-message="This field is required">
+                                            </div>
                                         </div>
                                         <div class="form-group">
                                             <label for="email">Email: <span class="text-danger">*</span></label>
-                                            <input id="email" type="email" class="form-control">
+                                            <div class="controls">
+                                                <input id="email" type="email" required data-validation-required-message="This field is required" class="form-control">
+                                            </div>
                                         </div>
                                         <div class="form-group">
                                             <label for="website">Message: <span class="text-danger">*</span></label>
-                                            <textarea id="website" class="form-control"> </textarea>
+                                            <div class="controls">
+                                                <textarea id="website" class="form-control" required> </textarea>
+                                            </div>
                                         </div>
-                                        <button class="btn btn-primary px-lg-4">Send <i class="pl-2 fa fa-paper-plane"></i></button>
+                                        <button type="submit" class="btn btn-primary px-lg-4">Send <i class="pl-2 fa fa-paper-plane"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -333,6 +340,7 @@
 <script src="assets/js/bootstrap.bundle.js"></script>
 <script defer src="assets/js/main.js"></script>
 <script src="assets/js/dynamic-menu.js"></script>
+<script src="assets/js/jqBootstrapValidation.js"></script>
 
 <!-- Jquery Twitter Feed Plugin -->
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
@@ -345,6 +353,9 @@
         ],
         text: "share with: "
     });
+
+    // Input, Select, Textarea validations except submit button
+    $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
 
     <!-- (Jquery UI Widget) - Date picker -->
     $(".datepicker").datepicker({
