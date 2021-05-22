@@ -19,9 +19,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="renamed">
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="updated">
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/css/datepicker-customized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/css/jquery.floating-social-share.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/air-defence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems-4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/land-systems.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/images/naval-defence.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/dynamic-menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/jquery.floating-social-share.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/news-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity7/Onturk-Activity7.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity7/Onturk-Activity7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -61,10 +92,11 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities/project/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +110,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inclassactivities/project/assets/js" />
+      <recent name="$PROJECT_DIR$/inclassactivities/project/assets/images" />
+      <recent name="$PROJECT_DIR$/inclassactivities/project/assets/css" />
       <recent name="$PROJECT_DIR$/inclassactivities" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -117,14 +152,13 @@
       <workItem from="1619093139569" duration="1301000" />
       <workItem from="1619122822681" duration="10000" />
       <workItem from="1619521140598" duration="1163000" />
-      <workItem from="1621073354997" duration="10196000" />
-    </task>
-    <task id="LOCAL-00002" summary="texts updated">
-      <created>1602137225853</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1602137225853</updated>
+      <workItem from="1621073354997" duration="10866000" />
+      <workItem from="1621098581117" duration="954000" />
+      <workItem from="1621271515712" duration="5460000" />
+      <workItem from="1621338345036" duration="623000" />
+      <workItem from="1621454268033" duration="9477000" />
+      <workItem from="1621509647302" duration="3863000" />
+      <workItem from="1621696202631" duration="7843000" />
     </task>
     <task id="LOCAL-00003" summary="web application lesson 1st assignment">
       <created>1616062520848</created>
@@ -462,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621073503734</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="updated">
+      <created>1621097252846</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1621097252846</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,6 +522,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="title icon.png added" />
     <MESSAGE value="emoji added" />
     <MESSAGE value="index page updated" />
@@ -498,7 +540,6 @@
     <MESSAGE value="activity3 updated" />
     <MESSAGE value="activity 4 added" />
     <MESSAGE value="activity 4 updated" />
-    <MESSAGE value="updated" />
     <MESSAGE value="gitignore file added" />
     <MESSAGE value="Activity6 added" />
     <MESSAGE value="Activity6 link added" />
@@ -506,6 +547,7 @@
     <MESSAGE value="project files added" />
     <MESSAGE value="Activity7 files added" />
     <MESSAGE value="renamed" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>

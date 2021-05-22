@@ -5,11 +5,15 @@
   <title>Turkish Defence | News</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+  <link rel="stylesheet" href="assets/css/datepicker.css">
+  <link rel="stylesheet" href="assets/css/datepicker-customized.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="assets/images/logo.ico">
+  <link rel="stylesheet" href="assets/css/jquery.floating-social-share.min.css">
+
   <link rel="stylesheet" href="assets/css/style.css">
   <script defer src="assets/fontawesome/js/all.js"></script>
 </head>
@@ -26,7 +30,7 @@
       </button>
       <div class="collapse navbar-collapse" id="nvbCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active pl-2">
+          <li class="nav-item pl-2">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item pl-2">
@@ -38,9 +42,9 @@
               Turkish Defence Industry
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Land Defence Systems</a>
-              <a class="dropdown-item" href="#">Air Defence Systems</a>
-              <a class="dropdown-item" href="#">Naval Defence Systems</a>
+              <a class="dropdown-item" href="turkish-defence-industry.html#landDefence">Land Defence Systems</a>
+              <a class="dropdown-item" href="turkish-defence-industry.html#airDefence">Air Defence Systems</a>
+              <a class="dropdown-item" href="turkish-defence-industry.html#navalDefence">Naval Defence Systems</a>
             </div>
           </li>
           <li class="nav-item pl-2">
@@ -68,7 +72,7 @@
       <div class="crumbs mt-2 mb-0">
         <ul class="mb-2">
           <li><a href="index.html">Homepage</a></li>
-          <li><a href="recent-news.html">Recent News</a></li>
+          <li><a href="news.html">Recent News</a></li>
         </ul>
       </div>
     </div>
@@ -116,11 +120,11 @@
             <div class="row mt-5">
               <div class="col-md-6">
                 <div class="news-thumb mb-5">
-                  <a href="#">
+                  <a href="news-detail.html">
                     <img src="assets/images/news-2.jpg" alt="">
                   </a>
                   <div class="image-time">7 Mart 2021</div>
-                  <a href="#">
+                  <a href="news-detail.html">
                     <div class="image-title">
                       <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
                     </div>
@@ -131,11 +135,11 @@
               </div>
               <div class="col-md-6">
                 <div class="news-thumb mb-5">
-                  <a href="#">
+                  <a href="news-detail.html">
                     <img src="assets/images/news-1.jpg" alt="">
                   </a>
                   <div class="image-time">7 Mart 2021</div>
-                  <a href="#">
+                  <a href="news-detail.html">
                     <div class="image-title">
                       <h4>MAM-L’nin Yeni Hedefi Gemiler</h4>
                     </div>
@@ -146,11 +150,11 @@
               </div>
               <div class="col-md-6">
                 <div class="news-thumb mb-5">
-                  <a href="#">
+                  <a href="news-detail.html">
                     <img src="assets/images/news-3.jpg" alt="">
                   </a>
                   <div class="image-time">7 Mart 2021</div>
-                  <a href="#">
+                  <a href="news-detail.html">
                     <div class="image-title">
                       <h4>Denizaltı Bilgi Dağıtım Sistemi Hazır</h4>
                     </div>
@@ -177,7 +181,8 @@
         <div class="card twitter-sidebar">
           <div class="card-body">
             <h5 class="widget-title">Twitter</h5>
-            <a class="twitter-timeline" data-width="350" href="https://twitter.com/SavunmaSanayii?ref_src=twsrc%5Etfw" data-chrome="transparent scrollbar" data-tweet-limit="10"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="elfsight-app-904fd25d-dea4-49da-bccd-1a7b381d62cf"></div>
+<!--            <a class="twitter-timeline" data-width="350" href="https://twitter.com/SavunmaSanayii?ref_src=twsrc%5Etfw" data-chrome="transparent scrollbar" data-tweet-limit="10"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
           </div>
         </div>
         <div class="card">
@@ -252,9 +257,7 @@
         </div>
         <div class="col-md-2 mt-4">
           <h5 class="widget-title">Archives</h5>
-          <select class="form-control" name="search" id="">
-            <option value="">Choose Month</option>
-          </select>
+          <input type="text" class="datepicker form-control" placeholder="Choose Date">
         </div>
       </div>
     </div>
@@ -262,11 +265,35 @@
 </footer>
 <!--# Footer #-->
 
-<script defer src="assets/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/jquery.floating-social-share.min.js"></script>
+<script type="text/javascript" src="assets/js/datepicker.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/bootstrap.bundle.js"></script>
 <script defer src="assets/js/main.js"></script>
+<script src="assets/js/dynamic-menu.js"></script>
 
+<!-- Jquery Twitter Feed Plugin -->
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+<script>
+  // Social Share Bar Jquery Plugin
+  $(".container").floatingSocialShare({
+    buttons: [
+      "facebook", "linkedin", "twitter", "telegram", "whatsapp"
+    ],
+    text: "share with: "
+  });
+
+  <!-- (Jquery UI Widget) - Date picker -->
+  $(".datepicker").datepicker({
+    weekStart: 1,
+    format: 'dd/mm/yyyy'
+  });
+
+  // Change navbar active class dynamically
+  $('#nvbCollapse').dynamicMenu();
+</script>
 
 </body>
 </html>

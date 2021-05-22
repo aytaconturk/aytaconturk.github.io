@@ -229,20 +229,20 @@ footer a.text-light:hover {
 
 /*---------------- News Thumb -----------------------*/
 .news-thumb img {
-    width: 430px;
+    width: 100%;
     border-radius: 5px;
 }
 
 .news-thumb.sm img {
-    width: 430px;
+    width: 100%;
     border-radius: 5px;
 }
 
 .news-thumb .image-time{
     font-size: 13px;
-    margin-top: 4px;
-    margin-bottom: 5px;
-    color: #555;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color: #aaa;
 }
 
 .news-thumb .image-title{
@@ -410,3 +410,114 @@ footer a.text-light:hover {
     text-decoration: none;
     background-color: #e30613 !important;
 }
+
+.industry-header a {
+    padding: 8px 100px 8px 10px;
+    color: #ffffff;
+    border-radius: 3px;
+    background: linear-gradient(to left, #06950d 50%, #028b0a 50%) right;
+    background-size: 200%;
+    /*clip-path: polygon(75% 0%, 81% 49%, 75% 100%, 0% 100%, 3% 51%, 0% 0%);*/
+    /*clip-path: polygon(0 0, 86% 0, 75% 100%, 0% 100%);*/
+    clip-path: polygon(0% 0%, 75% 0%, 81% 51%, 75% 100%, 0% 100%);
+
+}
+
+.industry-header a:hover {
+    -webkit-transition:.8s;
+    transition: .8s ease-out;
+    text-decoration: none;
+    background-position: left;
+}
+
+#airDefence .industry-header a {
+    background: linear-gradient(to left, #1da1f2 50%, #1da1f2 50%) right;
+}
+
+#navalDefence .industry-header a {
+    background: linear-gradient(to left, #0b03ff 50%, #0b03ff 50%) right;
+}
+
+
+.x-target:target {
+    color: #2bbbb3;
+    margin-top: -12px;
+    padding-top: 80px;
+}
+
+.x-target:target:before {
+    content:'';
+    font-family:'Open Sans', sans;
+    font-size:12px;
+    background:#ccc;
+    border-radius:3px;
+    background-clip:padding-box;
+    color:#fff;
+    padding:0 5px;
+    position:absolute;
+    top:24px;
+}
+
+.mt-60 {
+    margin-top: -60px;
+}
+
+.br-3 {
+    border-radius: 3px;
+}
+
+.post-sm {
+    font-family: 'Poppins';
+    margin-top: -5px;
+}
+
+.post-sm span {
+    margin-top: 0;
+    font-size: 10px;
+    color: #aaa;
+}
+
+.post-title {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333 !important;
+    text-decoration: none;
+}
+
+.post-title a {
+    color: #111 !important;
+    text-decoration: none;
+}
+
+.font-family-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.font-family-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.news-content p {
+    font-size: 21px;
+    line-height: 32px;
+    font-family: 'Padauk', sans-serif;
+    margin-top: 2em;
+}
+
+.news-h4 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.news-comments button svg {
+    font-size: 22px !important;
+}
+
+.box-shadow-1 {
+    box-shadow: 0px 1px 15px 10px rgba(62, 57, 107,  0.07) !important;
+}
+
