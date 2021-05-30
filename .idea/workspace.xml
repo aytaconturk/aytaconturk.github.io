@@ -19,25 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Page Url.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/images/h6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity9/thumbnails/t6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="files added">
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity10/Onturk_Activity10.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity10/Onturk-Activity10.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity10/Onturk_Activity10.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity10/Onturk_Activity10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk-Activity9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk-Activity9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk_Activity9.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/Activity9/Onturk-Activity9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,21 +141,7 @@
       <workItem from="1622212832440" duration="1153000" />
       <workItem from="1622224328275" duration="5063000" />
       <workItem from="1622377143081" duration="3086000" />
-      <workItem from="1622394390342" duration="176000" />
-    </task>
-    <task id="LOCAL-00015" summary="index page updated">
-      <created>1616107823045</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1616107823045</updated>
-    </task>
-    <task id="LOCAL-00016" summary="index page updated">
-      <created>1616107918709</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1616107918709</updated>
+      <workItem from="1622394390342" duration="477000" />
     </task>
     <task id="LOCAL-00017" summary="index page updated">
       <created>1616108248706</created>
@@ -499,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622379627045</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="files added">
+      <created>1622394592527</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1622394592527</updated>
+    </task>
+    <task id="LOCAL-00065" summary="files added">
+      <created>1622394792832</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1622394792832</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="index page updated" />
     <MESSAGE value="in class activity 1" />
     <MESSAGE value="activity 2 files added" />
     <MESSAGE value="activity 2 files renamed" />
@@ -544,6 +530,7 @@
     <MESSAGE value="deleted" />
     <MESSAGE value="added" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="files added" />
   </component>
 </project>
