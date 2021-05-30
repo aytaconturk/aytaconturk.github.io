@@ -7,6 +7,4 @@ $(document).ready(function () {
     $("#pr").autocomplete({
         source: pr
     });
-
-
 });
