@@ -1,295 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Turkish Defence | News</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-  <link rel="stylesheet" href="assets/css/datepicker.css">
-  <link rel="stylesheet" href="assets/css/datepicker-customized.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="assets/images/logo.ico">
-  <link rel="stylesheet" href="assets/css/jquery.floating-social-share.min.css">
+    <meta charset="UTF-8">
+    <title>Turkish Defence | News</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/datepicker.css">
+    <link rel="stylesheet" href="assets/css/datepicker-customized.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.ico">
+    <link rel="stylesheet" href="assets/css/jquery.floating-social-share.min.css">
 
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script defer src="assets/fontawesome/js/all.js"></script>
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/fontawesome/js/all.js"></script>
 </head>
 <body>
 <!-- Header part of the page -->
 <header>
-  <!--- Navbar --->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand logo text-white" href="index.html">Turkish Defence</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse"
-              aria-controls="nvbCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nvbCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item pl-2">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item pl-2">
-            <a class="nav-link" href="news.html">News</a>
-          </li>
-          <li class="nav-item dropdown pl-2">
-            <a class="nav-link dropdown-toggle" href="turkish-defence-industry.html" id="navbarDropdown" role="button"
-               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Turkish Defence Industry
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="turkish-defence-industry.html#landDefence">Land Defence Systems</a>
-              <a class="dropdown-item" href="turkish-defence-industry.html#airDefence">Air Defence Systems</a>
-              <a class="dropdown-item" href="turkish-defence-industry.html#navalDefence">Naval Defence Systems</a>
+    <!--- Navbar --->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo text-white" href="index.html">Turkish Defence</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse"
+                    aria-controls="nvbCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nvbCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pl-2">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item dropdown pl-2">
+                        <a class="nav-link dropdown-toggle" href="turkish-defence-industry.html" id="navbarDropdown"
+                           role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Turkish Defence Industry
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="turkish-defence-industry.html#landDefence">Land Defence
+                                Systems</a>
+                            <a class="dropdown-item" href="turkish-defence-industry.html#airDefence">Air Defence
+                                Systems</a>
+                            <a class="dropdown-item" href="turkish-defence-industry.html#navalDefence">Naval Defence
+                                Systems</a>
+                        </div>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <li class="nav-item pl-2">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--# Navbar #-->
+        </div>
+    </nav>
+    <!--# Navbar #-->
 
-  <div class="header-slider">
-    <h3 class="title">İstiklal ve İstikbalimiz İçin...</h3>
-  </div>
+    <div class="header-slider">
+        <h3 class="title">İstiklal ve İstikbalimiz İçin...</h3>
+    </div>
 </header>
 <!--# Header #-->
 
-<!-- Breadcrumb -->
-<div class="row">
-  <div class="col-md-12">
-    <div class="card border-radius-none">
-      <div class="crumbs mt-2 mb-0">
-        <ul class="mb-2">
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="news.html">Recent News</a></li>
-        </ul>
-      </div>
+<!-- Latest news bar -->
+<div class="row" id="latest-news-bar">
+    <div class="col-md-12">
+        <div class="card border-radius-none">
+            <div class="container">
+                <p class="latest-news-heading pt-1 mb-1 d-flex align-items-center">
+                <span class="mr-2 animated-button">
+                    <span></span><span></span><span></span><span></span>Latest News
+                </span>
+                    <span id="news-coding"></span>
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
-<!--# Breadcrumb #-->
+<!--# Latest news bar #-->
 
 <!-- Main Content -->
 <div class="content">
-  <div class="container">
+    <div class="container">
 
-    <div class="row">
-      <div class="col-md-9">
-        <div class="card">
-          <div class="card-header">
-            <h2>Recent News</h2>
-          </div>
-          <div class="card-body">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="assets/images/news_slider1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/images/news_slider2.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="assets/images/news_slider3.jpg" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-            <div class="row mt-5">
-              <div class="col-md-6">
-                <div class="news-thumb mb-5">
-                  <a href="news-detail.html">
-                    <img src="assets/images/news-2.jpg" alt="">
-                  </a>
-                  <div class="image-time">7 Mart 2021</div>
-                  <a href="news-detail.html">
-                    <div class="image-title">
-                      <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Recent News</h2>
                     </div>
-                  </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                  <button class="read-more btn btn-sm btn-secondary">Read More</button>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="news-thumb mb-5">
-                  <a href="news-detail.html">
-                    <img src="assets/images/news-1.jpg" alt="">
-                  </a>
-                  <div class="image-time">7 Mart 2021</div>
-                  <a href="news-detail.html">
-                    <div class="image-title">
-                      <h4>MAM-L’nin Yeni Hedefi Gemiler</h4>
+                    <div class="card-body">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/images/news_slider1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/news_slider2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/images/news_slider3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-6">
+                                <div class="news-thumb mb-5">
+                                    <a href="news-detail.html">
+                                        <img src="assets/images/news-2.jpg" alt="">
+                                    </a>
+                                    <div class="image-time">7 Mart 2021</div>
+                                    <a href="news-detail.html">
+                                        <div class="image-title">
+                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                        </div>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda
+                                        consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia,
+                                        placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur
+                                        repellendus soluta!...</p>
+                                    <button class="read-more btn btn-sm btn-secondary">Read More</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="news-thumb mb-5">
+                                    <a href="news-detail.html">
+                                        <img src="assets/images/news-1.jpg" alt="">
+                                    </a>
+                                    <div class="image-time">7 Mart 2021</div>
+                                    <a href="news-detail.html">
+                                        <div class="image-title">
+                                            <h4>MAM-L’nin Yeni Hedefi Gemiler</h4>
+                                        </div>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet atque
+                                        dolorem eaque esse fuga iste itaque laboriosam maxime minima, minus, obcaecati
+                                        pariatur, perferendis quidem quo repudiandae rerum unde vel?...</p>
+                                    <button class="read-more btn btn-sm btn-secondary">Read More</button>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="news-thumb mb-5">
+                                    <a href="news-detail.html">
+                                        <img src="assets/images/news-3.jpg" alt="">
+                                    </a>
+                                    <div class="image-time">7 Mart 2021</div>
+                                    <a href="news-detail.html">
+                                        <div class="image-title">
+                                            <h4>Denizaltı Bilgi Dağıtım Sistemi Hazır</h4>
+                                        </div>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium
+                                        aliquid dolorum eos ex facilis fuga minus nulla odio perspiciatis, quae quaerat
+                                        quam quia similique tempora velit vitae voluptas voluptatibus!...</p>
+                                    <button class="read-more btn btn-sm btn-secondary">Read More</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet atque dolorem eaque esse fuga iste itaque laboriosam maxime minima, minus, obcaecati pariatur, perferendis quidem quo repudiandae rerum unde vel?...</p>
-                  <button class="read-more btn btn-sm btn-secondary">Read More</button>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="news-thumb mb-5">
-                  <a href="news-detail.html">
-                    <img src="assets/images/news-3.jpg" alt="">
-                  </a>
-                  <div class="image-time">7 Mart 2021</div>
-                  <a href="news-detail.html">
-                    <div class="image-title">
-                      <h4>Denizaltı Bilgi Dağıtım Sistemi Hazır</h4>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="search-container">
+                            <form action="#">
+                                <input type="text" placeholder="Search.." name="search">
+                                <button type="submit"><i class="fa fa-search text-white"></i></button>
+                            </form>
+                        </div>
                     </div>
-                  </a>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium aliquid dolorum eos ex facilis fuga minus nulla odio perspiciatis, quae quaerat quam quia similique tempora velit vitae voluptas voluptatibus!...</p>
-                  <button class="read-more btn btn-sm btn-secondary">Read More</button>
                 </div>
-              </div>
+                <div class="card twitter-sidebar">
+                    <div class="card-body">
+                        <h5 class="widget-title">Twitter</h5>
+                        <div class="elfsight-app-904fd25d-dea4-49da-bccd-1a7b381d62cf"></div>
+                        <!--            <a class="twitter-timeline" data-width="350" href="https://twitter.com/SavunmaSanayii?ref_src=twsrc%5Etfw" data-chrome="transparent scrollbar" data-tweet-limit="10"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="widget-title">Latest News</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="#">
+                                    <img src="assets/images/news-2.jpg" alt="">
+                                    <p class="pt-1 mb-0">TCG Anadolu Göreve Hazırlanıyor</p>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">
+                                    <img src="assets/images/news-3.jpg" alt="">
+                                    <p class="pt-1 mb-0">Lorem ipsum dolor sit amet.</p>
+                                </a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#">
+                                    <img src="assets/images/news-1.jpg" alt="">
+                                    <p class="pt-1 mb-0">Lorem ipsum dolor sit amet.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-content">
-            <div class="search-container">
-              <form action="#">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search text-white"></i></button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="card twitter-sidebar">
-          <div class="card-body">
-            <h5 class="widget-title">Twitter</h5>
-            <div class="elfsight-app-904fd25d-dea4-49da-bccd-1a7b381d62cf"></div>
-<!--            <a class="twitter-timeline" data-width="350" href="https://twitter.com/SavunmaSanayii?ref_src=twsrc%5Etfw" data-chrome="transparent scrollbar" data-tweet-limit="10"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="widget-title">Latest News</h5>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <a href="#">
-                  <img src="assets/images/news-2.jpg" alt="">
-                  <p class="pt-1 mb-0">TCG Anadolu Göreve Hazırlanıyor</p>
-                </a>
-              </li>
-              <li class="list-group-item">
-                <a href="#">
-                  <img src="assets/images/news-3.jpg" alt="">
-                  <p class="pt-1 mb-0">Lorem ipsum dolor sit amet.</p>
-                </a>
-              </li>
-              <li class="list-group-item">
-                <a href="#">
-                  <img src="assets/images/news-1.jpg" alt="">
-                  <p class="pt-1 mb-0">Lorem ipsum dolor sit amet.</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 
 <!--- Footer --->
 <footer>
-  <div class="jumbotron jumbotron-fluid p-4 mt-5 mb-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img class="footer-logo" src="assets/images/logo.png" alt="">
-          <p class="mt-2">
-            @ 2021 Turkish Defense. All rights reserved.
-          </p>
-          <p>
-            <a class="text-danger" href="#"><i class="fab fa-facebook-square fa-fw fa-2x"></i></a>
+    <div class="jumbotron jumbotron-fluid p-4 mt-5 mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="footer-logo" src="assets/images/logo.png" alt="">
+                    <p class="mt-2">
+                        @ 2021 Turkish Defense. All rights reserved.
+                    </p>
+                    <p>
+                        <a class="text-danger" href="#"><i class="fab fa-facebook-square fa-fw fa-2x"></i></a>
 
-            <a class="text-danger" href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a class="text-danger" href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
 
-            <a class="text-danger" href="#"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+                        <a class="text-danger" href="#"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
 
-            <a class="text-danger" href="#"><i class="fab fa-linkedin fa-fw fa-2x"></i></a>
-          </p>
+                        <a class="text-danger" href="#"><i class="fab fa-linkedin fa-fw fa-2x"></i></a>
+                    </p>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <h5 class="widget-title">Latest Comments</h5>
+                    <ul class="footer-list list-group list-group-flush">
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
+                        </li>
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
+                        </li>
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
+                        </li>
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
+                        </li>
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <h5 class="widget-title">Archives</h5>
+                    <input type="text" class="datepicker form-control" placeholder="Choose Date">
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 mt-4">
-          <h5 class="widget-title">Latest Comments</h5>
-          <ul class="footer-list list-group list-group-flush">
-            <li class="list-group-item">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
-            </li>
-            <li class="list-group-item">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
-            </li>
-            <li class="list-group-item">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
-            </li>
-            <li class="list-group-item">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
-            </li>
-            <li class="list-group-item">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, explicabo.
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-2 mt-4">
-          <h5 class="widget-title">Archives</h5>
-          <input type="text" class="datepicker form-control" placeholder="Choose Date">
-        </div>
-      </div>
     </div>
-  </div>
 </footer>
 <!--# Footer #-->
 
+<!-- JQuery -->
 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+
+<!-- Social Share Jquery Plugin -->
 <script src="assets/js/jquery.floating-social-share.min.js"></script>
+
+<!-- JQuery Datepicker UI Widget -->
 <script type="text/javascript" src="assets/js/datepicker.js"></script>
+
+<!-- Bootstrap JS -->
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/bootstrap.bundle.js"></script>
-<script defer src="assets/js/main.js"></script>
+
+<!-- Dynamic menu JS -->
 <script src="assets/js/dynamic-menu.js"></script>
+
+<!-- Typed jquery plugin -->
+<script src="assets/js/typed.js"></script>
 
 <!-- Jquery Twitter Feed Plugin -->
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 <script>
-  // Social Share Bar Jquery Plugin
-  $(".container").floatingSocialShare({
-    buttons: [
-      "facebook", "linkedin", "twitter", "telegram", "whatsapp"
-    ],
-    text: "share with: "
-  });
+    // Social Share Bar Jquery Plugin
+    $(".container").floatingSocialShare({
+        buttons: [
+            "facebook", "linkedin", "twitter", "telegram", "whatsapp"
+        ],
+        text: "share with: "
+    });
 
-  <!-- (Jquery UI Widget) - Date picker -->
-  $(".datepicker").datepicker({
-    weekStart: 1,
-    format: 'dd/mm/yyyy'
-  });
+    <!-- (Jquery UI Widget) - Date picker -->
+    $(".datepicker").datepicker({
+        weekStart: 1,
+        format: 'dd/mm/yyyy'
+    });
 
-  // Change navbar active class dynamically
-  $('#nvbCollapse').dynamicMenu();
+    // Change navbar active class dynamically
+    $('#nvbCollapse').dynamicMenu();
+
+    // auto type and delete news headings
+    $("#news-coding").typed({
+        strings: [
+            "<strong>Türk F-16’ları </strong> Akdeniz Üzerinde Görev İcra Eden B-52’ye Eşlik Etti",
+            "Norveç ile Hollanda dan <strong>Thales GM 200 MM/C</strong> Radar anlaşması ",
+            "Coşkunöz’den <strong>İHA</strong> eğitimleri için yeni ortaklık",
+            "Ukrayna hizmet dışındaki Sukhoi <strong>Su-24</strong> uçağını kullanıma aldı",
+            "<strong>Roketsan’dan</strong> İSO 500’de dikkat çekici yükseliş",
+            "BAE’nin Çin İle Gelişen Askeri Bağları <strong>F-35</strong> Alımını Etkiliyor"
+        ],
+        contentType: 'html',
+        typeSpeed: 20,
+        startDelay: 500,
+        backSpeed: 0,
+        loop: true,
+        loopCount: false
+    });
 </script>
 
 </body>

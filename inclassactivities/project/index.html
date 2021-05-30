@@ -63,19 +63,20 @@
 </header>
 <!--# Header #-->
 
-<!-- Breadcrumb -->
-<div class="row">
+<!-- Latest news bar -->
+<div class="row" id="latest-news-bar">
     <div class="col-md-12">
         <div class="card border-radius-none">
-            <div class="crumbs mt-2 mb-0">
-                <ul class="mb-2">
-                    <li><a href="index.html">Homepage</a></li>
-                </ul>
-            </div>
+            <p class="latest-news-heading pl-5 pt-1 mb-1 d-flex align-items-center">
+                <span class="mr-2 animated-button">
+                    <span></span><span></span><span></span><span></span>Latest News
+                </span>
+                <span id="news-coding"></span>
+            </p>
         </div>
     </div>
 </div>
-<!--# Breadcrumb #-->
+<!--# Latest news bar #-->
 
 <!-- Main Content -->
 <div class="content">
@@ -444,14 +445,25 @@
 </footer>
 <!--# Footer #-->
 
-<!-- Scripts -->
+<!-- ---------------------------- Scripts ------------------------------ -->
+<!-- JQuery -->
 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="assets/js/datepicker.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+
+<!-- Dynamic menu JS -->
 <script src="assets/js/dynamic-menu.js"></script>
+
+<!-- JQuery Datepicker UI Widget -->
+<script type="text/javascript" src="assets/js/datepicker.js"></script>
+
+<!-- JQuery Owl Carousel Slider -->
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+<!-- Typed JQuery plugin -->
+<script src="assets/js/typed.js"></script>
 
 <!-- Jquery Twitter Feed Plugin -->
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
@@ -483,6 +495,24 @@
 
         // Change navbar active class dynamically
         $('#nvbCollapse').dynamicMenu();
+
+        // auto type and delete news headings
+        $("#news-coding").typed({
+            strings: [
+                "<strong>Türk F-16’ları </strong> Akdeniz Üzerinde Görev İcra Eden B-52’ye Eşlik Etti",
+                "Norveç ile Hollanda dan <strong>Thales GM 200 MM/C</strong> Radar anlaşması ",
+                "Coşkunöz’den <strong>İHA</strong> eğitimleri için yeni ortaklık",
+                "Ukrayna hizmet dışındaki Sukhoi <strong>Su-24</strong> uçağını kullanıma aldı",
+                "<strong>Roketsan’dan</strong> İSO 500’de dikkat çekici yükseliş",
+                "BAE’nin Çin İle Gelişen Askeri Bağları <strong>F-35</strong> Alımını Etkiliyor"
+            ],
+            contentType: 'html',
+            typeSpeed: 20,
+            startDelay: 500,
+            backSpeed: 0,
+            loop: true,
+            loopCount: false
+        });
     });
 </script>
 
