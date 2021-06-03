@@ -339,23 +339,8 @@
 <script src="assets/js/dynamic-menu.js"></script>
 <script src="assets/js/jqBootstrapValidation.js"></script>
 
-<script>
-    $(document).ready(function () {
-
-        // Input, Select, Textarea validations except submit button
-        $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
-
-        // Change navbar active class dynamically
-        $('#nvbCollapse').dynamicMenu();
-
-        <!-- (Jquery UI Widget) - Date picker -->
-        $(".datepicker").datepicker({
-            weekStart: 1,
-            format: 'dd/mm/yyyy'
-        });
-    });
-</script>
-
+<!-- Page JS -->
+<script src="assets/js/pages/contact-page.js"></script>
 
 </body>
 </html>
