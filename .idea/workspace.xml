@@ -19,45 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/bullet.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/bx_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/jquery.bxslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/js/jquery.bxslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/reservation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/response.html" afterDir="false" />
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,14 +139,7 @@
       <workItem from="1622377143081" duration="3086000" />
       <workItem from="1622394390342" duration="2675000" />
       <workItem from="1622400067207" duration="908000" />
-      <workItem from="1622758915951" duration="2158000" />
-    </task>
-    <task id="LOCAL-00023" summary="in class activity 1">
-      <created>1616159605960</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1616159605960</updated>
+      <workItem from="1622758915951" duration="3656000" />
     </task>
     <task id="LOCAL-00024" summary="activity 2 files added">
       <created>1616277296099</created>
@@ -522,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622760398789</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="files added">
+      <created>1622761459679</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1622761459679</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,10 +525,10 @@
     <MESSAGE value="renamed" />
     <MESSAGE value="deleted" />
     <MESSAGE value="added" />
-    <MESSAGE value="files added" />
     <MESSAGE value="refactored" />
     <MESSAGE value="Activity 7, 8, 9, 10 added" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="files added" />
   </component>
 </project>
