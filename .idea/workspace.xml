@@ -20,17 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="updated">
-      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/contact-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/index-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-detail-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/turkish-defence-industry-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/building_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/bullet.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/bx_loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/jquery.bxslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/js/jquery.bxslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part1/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part2/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/reservation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inclassactivities/Activity11/Part3/response.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/project/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/project/news-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/news-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/project/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +102,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities/project/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inclassactivities/Activity11" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -88,11 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inclassactivities/Activity11" />
       <recent name="$PROJECT_DIR$/inclassactivities/project/assets/js" />
       <recent name="$PROJECT_DIR$/inclassactivities/project/assets/images" />
       <recent name="$PROJECT_DIR$/inclassactivities/project/assets/css" />
       <recent name="$PROJECT_DIR$/inclassactivities" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inclassactivities/Activity8" />
@@ -149,14 +177,7 @@
       <workItem from="1622377143081" duration="3086000" />
       <workItem from="1622394390342" duration="2675000" />
       <workItem from="1622400067207" duration="908000" />
-      <workItem from="1622758915951" duration="509000" />
-    </task>
-    <task id="LOCAL-00022" summary="in class activity 1">
-      <created>1616159498903</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1616159498903</updated>
+      <workItem from="1622758915951" duration="2158000" />
     </task>
     <task id="LOCAL-00023" summary="in class activity 1">
       <created>1616159605960</created>
@@ -494,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622397267512</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="updated">
+      <created>1622760398789</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1622760398789</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
