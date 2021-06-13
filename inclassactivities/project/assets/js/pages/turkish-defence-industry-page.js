@@ -41,4 +41,22 @@ $(document).ready(function () {
         loop: true,
         loopCount: false
     });
+
+    var requestURL = 'https://api.exchangerate.host/latest?base=TRY';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function() {
+        var response = request.response;
+        console.log(response);
+        const eur = 1/response.rates.EUR;
+        const usd = 1/response.rates.USD;
+        console.log(eur)
+        console.log(usd)
+
+        $("#currency-dollar span").text(usd.toFixed(4));
+        $("#currency-euro span").text(eur.toFixed(4));
+    }
 });

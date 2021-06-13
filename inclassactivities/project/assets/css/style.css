@@ -782,3 +782,19 @@ footer a.text-light:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
+
+.page-item.active .page-link {
+    color: #fff;
+    cursor: pointer;
+    background-color: #e30613;
+    border-color: #dee2e6;
+}
+
+.currency-bar {
+    padding: 0 15%;
+    background: #c9c7c7;
+}
+
+.currency-bar .currency{
+    margin: 0 15px;
+}

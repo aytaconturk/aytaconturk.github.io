@@ -20,10 +20,22 @@
 </head>
 <body>
 <!-- Header part of the page -->
+
 <header>
+
     <!--- Navbar --->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top flex-column p-0">
+        <div class="currency-bar w-100 d-block text-right" >
+            <span id="currency-dollar" class="currency">
+                 <i class="fa fa-dollar-sign" aria-hidden="true"></i> =
+                 <span></span>
+            </span>
+            <span id="currency-euro" class="currency">
+                 <i class="fa fa-euro-sign" aria-hidden="true"></i> =
+                 <span></span>
+            </span>
+        </div>
+        <div class="container py-2 px-4">
             <a class="navbar-brand logo text-white" href="index.html">Turkish Defence</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse"
                     aria-controls="nvbCollapse">
@@ -79,7 +91,8 @@
 <!--# Latest news bar #-->
 
 <!-- Main Content -->
-<div class="content">
+<main>
+    <div class="content">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
@@ -150,17 +163,130 @@
                 </div>
             </div>
         </div>
-        <h3 class="widget-title mt-5">Popular Subjects</h3>
-        <div class="row">
+        <h3 class="widget-title mt-5 ml-4">Popular Subjects</h3>
+        <div class="row pl-4">
             <!-- news cards -->
             <div class="col-md-9">
-                <div class="row">
+                <div class="news-container">
+                    <div class="row news-row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img class="w-100" src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="news-thumb sm mb-5">
+                                        <a href="news-detail.html">
+                                            <img src="assets/images/news-2.jpg" alt="">
+                                        </a>
+                                        <div class="image-time pl-3">7 Mart 2021</div>
+                                        <a href="news-detail.html">
+                                            <div class="image-title pl-3">
+                                                <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
+                                            </div>
+                                        </a>
+                                        <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-content">
                                 <div class="news-thumb sm mb-5">
                                     <a href="news-detail.html">
-                                        <img class="w-100" src="assets/images/news-2.jpg" alt="">
+                                        <img src="assets/images/news-2.jpg" alt="">
                                     </a>
                                     <div class="image-time pl-3">7 Mart 2021</div>
                                     <a href="news-detail.html">
@@ -210,127 +336,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="news-thumb sm mb-5">
-                                    <a href="news-detail.html">
-                                        <img src="assets/images/news-2.jpg" alt="">
-                                    </a>
-                                    <div class="image-time pl-3">7 Mart 2021</div>
-                                    <a href="news-detail.html">
-                                        <div class="image-title pl-3">
-                                            <h4>TCG Anadolu Göreve Hazırlanıyor</h4>
-                                        </div>
-                                    </a>
-                                    <p class="pl-3 pr-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda consequuntur culpa eveniet exercitationem, explicabo iure minima odit officia, placeat quae ratione voluptate voluptatibus! Fugit in inventore pariatur repellendus soluta!...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Pagination -->
                 <nav aria-label="...">
                     <ul class="pagination pagination-lg justify-content-center">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">1</a>
+                        <li class="page-item active">
+                            <a class="page-link" tabindex="-1">1</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a id="page-link-2" class="page-link">2</a></li>
+                        <li class="page-item"><a class="page-link">3</a></li>
                     </ul>
                 </nav>
                 <!--# Pagination #-->
@@ -394,7 +408,7 @@
         </div>
     </div>
 </div>
-
+</main>
 <!--- Footer --->
 <footer>
     <div class="jumbotron jumbotron-fluid p-4 mt-5 mb-0">

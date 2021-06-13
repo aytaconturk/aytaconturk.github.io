@@ -21,9 +21,20 @@
 <body>
 <!-- Header part of the page -->
 <header>
+
     <!--- Navbar --->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top flex-column p-0">
+        <div class="currency-bar w-100 d-block text-right" >
+            <span id="currency-dollar" class="currency">
+                 <i class="fa fa-dollar-sign" aria-hidden="true"></i> =
+                 <span></span>
+            </span>
+            <span id="currency-euro" class="currency">
+                 <i class="fa fa-euro-sign" aria-hidden="true"></i> =
+                 <span></span>
+            </span>
+        </div>
+        <div class="container py-2 px-4">
             <a class="navbar-brand logo text-white" href="index.html">Turkish Defence</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse"
                     aria-controls="nvbCollapse">
@@ -38,18 +49,14 @@
                         <a class="nav-link" href="news.html">News</a>
                     </li>
                     <li class="nav-item dropdown pl-2">
-                        <a class="nav-link dropdown-toggle" href="turkish-defence-industry.html" id="navbarDropdown"
-                           role="button"
+                        <a class="nav-link dropdown-toggle" href="turkish-defence-industry.html" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Turkish Defence Industry
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="turkish-defence-industry.html#landDefence">Land Defence
-                                Systems</a>
-                            <a class="dropdown-item" href="turkish-defence-industry.html#airDefence">Air Defence
-                                Systems</a>
-                            <a class="dropdown-item" href="turkish-defence-industry.html#navalDefence">Naval Defence
-                                Systems</a>
+                            <a class="dropdown-item" href="turkish-defence-industry.html#landDefence">Land Defence Systems</a>
+                            <a class="dropdown-item" href="turkish-defence-industry.html#airDefence">Air Defence Systems</a>
+                            <a class="dropdown-item" href="turkish-defence-industry.html#navalDefence">Naval Defence Systems</a>
                         </div>
                     </li>
                     <li class="nav-item pl-2">

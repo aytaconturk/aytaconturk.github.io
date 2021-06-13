@@ -19,8 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="files added">
+    <list default="true" id="a6def49b-3bd1-4142-81dc-9c361d706ddb" name="Default Changelist" comment="updated">
+      <change afterPath="$PROJECT_DIR$/inclassactivities/project/assets/json/news.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/contact-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/contact-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/index-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/index-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-detail-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-detail-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/news-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/turkish-defence-industry-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/assets/js/pages/turkish-defence-industry-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/news-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/news-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" beforeDir="false" afterPath="$PROJECT_DIR$/inclassactivities/project/turkish-defence-industry.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +151,10 @@
       <workItem from="1622377143081" duration="3086000" />
       <workItem from="1622394390342" duration="2675000" />
       <workItem from="1622400067207" duration="908000" />
-      <workItem from="1622758915951" duration="3656000" />
-    </task>
-    <task id="LOCAL-00024" summary="activity 2 files added">
-      <created>1616277296099</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1616277296099</updated>
+      <workItem from="1622758915951" duration="4488000" />
+      <workItem from="1622770150653" duration="160000" />
+      <workItem from="1623603769414" duration="5243000" />
+      <workItem from="1623609136622" duration="6575000" />
     </task>
     <task id="LOCAL-00025" summary="activity 2 files renamed">
       <created>1616277634135</created>
@@ -484,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622761459679</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="updated">
+      <created>1622763105390</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1622763105390</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,8 +542,8 @@
     <MESSAGE value="added" />
     <MESSAGE value="refactored" />
     <MESSAGE value="Activity 7, 8, 9, 10 added" />
-    <MESSAGE value="updated" />
     <MESSAGE value="files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="files added" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
